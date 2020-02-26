@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+	<title>Serviço de Mensagens</title>
+	<link rel="StyleSheet" type="text/css" href="css/Style.css"
+		media="screen"></link>
+</h:head>
+<h:body>
+	<h:form>
+		<div>
+			<fieldset style="border-radius:5px">
+				<LEGEND>Sistema de Mensagens GOGO FOX!</LEGEND>
+				<h:outputText value="Nome: " styleClass="nome" />
+				<h:inputText value="#{contatoController.nome}"
+					styleClass="caixasTexto" />
+				<h:outputText value="E-mail: " styleClass="email" />
+				<h:inputText value="#{contatoController.email}"
+					styleClass="caixasTexto" />
+				<h:outputText value="Mensagem: " styleClass="mensagem" />
+				<h:inputText value="#{contatoController.mensagem}"
+					styleClass="caixaTextoMsg" />
+				<h:commandButton action="#{contatoController.enviarMensagem}"
+					value="Enviar Mensagem" styleClass="botoes" />
+				<h:outputText value="#{contatoController.horario}"
+					styleClass="statusSistema" />
+			</fieldset>
+		</div>	
+	</h:form>
+</h:body>
+</html>
+

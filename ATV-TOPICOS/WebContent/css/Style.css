@@ -1,0 +1,61 @@
+.nome {
+	font-weight: bold;
+    font-family: arial;
+    display:marker;
+    font-size: 100%;
+    margin-left:4%;
+}
+.email {
+	font-weight: bold;
+    font-family: arial;
+    display:inline;
+    font-size: 100%;
+    margin-left: 4%;
+}
+.mensagem {
+	font-weight: bold;
+    font-family: arial;
+    margin-left:0%;
+    display:block;
+    font-size: 100%;
+    margin-left:4%;
+    margin-top: 5%;
+}
+.caixasTexto{
+	border-bottom-style:groove;
+	font-family: arial;
+}
+.caixaTextoMsg{
+	margin-top:1%;
+	display:block;
+	border-bottom-style:groove;
+	font-family: arial;
+	margin-left:4%;
+	width:90%;
+	height:60px;
+}
+
+.statusSistema {
+	margin-left:70%;
+}
+
+div{
+	width:30%;
+	display:table;
+	margin-left:35%;
+	margin-top:15%;
+}
+LEGEND{
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+}
+.botoes{
+	margin-left:4%;
+	margin-top:1%;
+	font-family: arial;
+	font-weight: bold;
+	font-size:100%;
+}
+
+
